@@ -1,0 +1,360 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Montserrat ExtraBlod;
+    src: url('../Assets/Fonts/Montserrat-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat ExtraLight;
+    src: url('../Assets/Fonts/Montserrat-ExtraLight.ttf');
+}
+
+@font-face {
+    font-family: MonteCarlo;
+    src: url('../Assets/Fonts/MonteCarlo-Regular.ttf');
+}
+
+/* Wrapping start */
+.wrapping {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+/* Wrapping end */
+
+/* banner start */
+.banner {
+    width: 100%;
+    height: 530px;
+    background: url('../Assets/Images/Banner.png');
+    background-size: 100% 100%;
+}
+
+.navigation {
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.LogoImg {
+    width: 300px;
+    max-width: 95%;
+}
+
+.menu {
+    display: table;
+    width: 100%;
+    list-style: none;
+    text-align: right;
+    margin-top: 10px;
+}
+    .menu > .list-item {
+        display: inline-flex;
+    }
+        .menu > .list-item > .nav-link {
+            color: black;
+        }
+        .menu > .list-item:last-child > .nav-link {
+            background: #ffffff;
+        }
+.heartDonate {
+    color: red;
+    font-size: 17px;
+}
+.TigerUTigerMe {
+    font-size: 100px;
+    line-height: 83px;
+    display: table;
+    width: 100%;
+    transform: translate(34%, 10px);
+    font-family: Montserrat ExtraBlod;
+    font-weight: bold;
+}
+.fondation {
+    display: table;
+    width: 100%;
+    transform: translate(35%, 20px);
+    font-family: Montserrat ExtraLight;
+    font-size: 16px;
+    font-weight: 500;
+}
+.bannet-Text {
+    position: relative !important;
+}
+    .bannet-Text > span.mt-4 {
+        margin-top: 1.0rem !important;
+    }
+    .bannet-Text > span.mt-5 {
+        margin-top: 2.0rem !important;
+    }
+.BannerPlayersImage {
+    width: 100%;
+    height: 500px;
+    background: url('../Assets/Images/Image001.png');
+    background-size: 100% 100%;
+}
+/* Carousel Indicator css start */
+.indicator-one, .indicator-two, .indicator-Three {
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: #ffbf00;
+    border: 1px solid white;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    cursor: pointer;
+}
+.indicator-two {
+    background: #d9d9d9;
+}
+.indicator-Three {
+    background: #cccc00;
+}
+
+/* banner end */
+
+/**** Mission Statement css start ****/
+.MissionStatementImage {
+    background: url('../Assets/Images/Image002.png');
+    height: 700px;
+}
+.missionStatementTxt {
+    width: 580px;
+    height: auto;
+    text-align: justify;
+    text-justify: inter-word;
+    transform: translate(10px, 30%);
+}
+.donateNow {
+    background: #ffffff;
+    border: 1px solid black;
+    padding: 10px 15px;
+}
+.atTheTiger {
+    font-family: Montserrat ExtraBlod;
+}
+.MissionTxt {
+    font-family: 'MonteCarlo';
+    font-size: 40px;
+    color: #cccc00;
+}
+/**** Mission Statement css end ****/
+
+.tiger {
+    background: url('../Assets/Images/Tiger.png');
+    background-size: 100% 100%;
+    margin: 80px auto;
+    width: 50rem;
+    height: 180px;
+}
+.about_Txt {
+    width: 700px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.aboutUs {
+    display: block;
+    width: 40%;
+    margin: auto;
+}
+.ReadMore {
+    display: block;
+    background: #cccc00;
+    padding: 8px 15px;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    margin: auto;
+}
+.projects {
+    display: block;
+    width: 1100px;
+    height: 550px;
+    background: #ffbf00;
+    margin: auto;
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative;
+}
+.projectTxt {
+    font-family: 'MonteCarlo';
+    font-size: 40px;
+}
+/*.projectPara {
+    position: relative;
+}*/
+.ProjectImg {
+    width: 15rem;
+    height: 200px;
+    position: absolute;
+    top: 60px;
+    right: 52px;
+}
+
+.ProjectImg01 {
+    width: 15rem;
+    height: 200px;
+    position: absolute;
+    bottom: 60px;
+    right: 52px;
+}
+.ViewMore {
+    display: block;
+    background: #fff;
+    padding: 8px 15px;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+}
+.NewsImage {
+    background: url('../Assets/Images/Image003.png');
+    background-size: 100% 100%;
+    height: 840px;
+    position: relative;
+    top: -50px;
+}
+.News {
+    width: 20rem;
+    margin: 15px;
+}
+.newsList {
+    display: block;
+    width: 100%;
+    overflow: auto;
+}
+.List001 {
+    float: left;
+    width: 100%;
+}
+.List001 .NewsListImg, .ImpactCorona, .ncaa {
+    display: inline;
+    float: left;
+}
+.List001 .ImpactCorona, .ncaa {
+    width: 30rem;
+    box-sizing: border-box;
+    padding: 0px 20px;
+}
+.List001 .ImpactCorona {
+    font-size: 20px;
+}
+.List002 {
+    float: left;
+    width: 100%;
+}
+.List002 .NewsListImg002, .InsideTrip, .matter {
+    display: inline;
+    float: left;
+    margin-top: 20px;
+}
+
+.List002 .InsideTrip, .matter {
+    width: 30rem;
+    box-sizing: border-box;
+    padding: 0px 20px;
+}
+
+.List002 .InsideTrip {
+    font-size: 20px;
+}
+.ReadMore--Modify {
+    margin-left: 0;
+}
+.donation {
+    display: block;
+    width: 1100px;
+    height: auto;
+    background: #ffbf00;
+    margin: auto;
+    padding: 80px 30px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 10000;
+    top: 40px;
+}
+.donateNow--modify {
+    display: block;
+    margin: auto;
+}
+.donation-para {
+    font-size: 20px;
+    font-family: Montserrat ExtraLight;
+    font-weight: bold;
+}
+.donation-Title {
+    font-family: Montserrat ExtraBold;
+}
+
+/* footer start */
+.footer {
+    width: 100%;
+    height: auto;
+    background: black;
+    position: relative;
+    top: 0;
+    z-index: 1;
+}
+.footerImgs {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 100px;
+}
+.footerImgs > img {
+    display: block;
+    width: 175px;
+    height: 160px;
+    padding: 8px;
+}
+.nav-link--modify {
+    color: white !important;
+    padding-left: 0;
+    font-size: 14px;
+    cursor: pointer;
+}
+.menuList {
+    display: table;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    top: 0px;
+    left: 3px;
+    z-index: 10000;
+}
+.menuList li a.nav-link {
+    padding: 3px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.tutm_details {
+    padding-top: 110px;
+    padding-left: 20px;
+}
+.contactDetails {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.tutm_details > p {
+    font-size: 13px;
+    padding: 15px 0;
+}
+.contactDetails p.itme {
+    font-size: 15px;
+}
+.contactDetails h4.itme {
+    font-size: 13px;
+}
+.footerImgs > img::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: black;
+    position: relative;
+    z-index: 1;
+}
+/* footer end */
